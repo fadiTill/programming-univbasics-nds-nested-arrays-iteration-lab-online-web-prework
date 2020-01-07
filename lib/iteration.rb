@@ -49,7 +49,7 @@ end
 
 def total_even_pairs(src)
   total_even_pairs= [4,4],[6,6],[8,8]
-  total = 0
+  if total = 0
 row_index = 0
 while row_index < total_even_pairs.count do
   element_index = 0
