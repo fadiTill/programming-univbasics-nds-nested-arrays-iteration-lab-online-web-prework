@@ -1,9 +1,14 @@
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
-  join_ingredients(src) = [ [Apples,pears],[strawsbery,rasberry],[lemeon,orange]
+  join_ingredients(src) = [ [tomatoes,peppers],[swiss cheese,blue cheese],[persley,cilantro]
   ]
   
+  def fruit_ingredients
+    fruit_ingredients = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
+    
+    row index = 0
+    
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
   #
