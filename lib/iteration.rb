@@ -10,8 +10,8 @@ def join_ingredients(src)
     ingr_index = 0
 while ingr_index < join_ingredients.count do
   element_index = 0
-  while element_index < spice_rack[row_index].count do
-    puts spice_rack[row_index][element_index]
+  while element_index < join_ingredients[ingr_index].count do
+    puts join_ingredients[ingr_index][element_index]
     element_index += 1
   end
   row_index += 1
