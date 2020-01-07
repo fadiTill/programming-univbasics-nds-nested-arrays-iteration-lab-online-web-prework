@@ -5,7 +5,7 @@ def join_ingredients(src)
   ]
   
   def ingr_index
-    ingr_ingredients = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
+    ingr_index = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
     
     ingr_index = 0
 while ingr_index < join_ingredients.count do
