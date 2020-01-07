@@ -33,7 +33,7 @@ while row_index < find_greater_pair.count do
   inner_results = []
   while element_index < find_greater_pair[row_index].count do
     if find_greater_pair[row_index][element_index][0] >= 2
-      inner_results << spice_rack[row_index][element_index]
+      inner_results << find_greater_pair[row_index][element_index]
     end
     element_index += 1
   end
