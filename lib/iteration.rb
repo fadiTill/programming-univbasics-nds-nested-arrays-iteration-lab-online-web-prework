@@ -4,11 +4,11 @@ def join_ingredients(src)
   join_ingredients(src) = [ [tomatoes,peppers],[swiss cheese,blue cheese],[persley,cilantro]
   ]
   
-  def fruit_ingredients
-    fruit_ingredients = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
+  def ingr_index
+    ingr_ingredients = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
     
-    row_index = 0
-while row_index < spice_rack.count do
+    ingr_index = 0
+while ingr_index < join_ingredients.count do
   element_index = 0
   while element_index < spice_rack[row_index].count do
     puts spice_rack[row_index][element_index]
