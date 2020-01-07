@@ -14,7 +14,7 @@ while ingr_index < join_ingredients.count do
     puts join_ingredients[ingr_index][element_index]
     element_index += 1
   end
-  row_index += 1
+  ingr_index_index += 1
 end #=> nil
     
   # Build a new Array that contains strings where each pair of foods is
