@@ -7,7 +7,15 @@ def join_ingredients(src)
   def fruit_ingredients
     fruit_ingredients = ["I love "]+ [Join_ingeredients]+ ["on my pizza"]
     
-    row index = 0
+    row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  while element_index < spice_rack[row_index].count do
+    puts spice_rack[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end #=> nil
     
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
