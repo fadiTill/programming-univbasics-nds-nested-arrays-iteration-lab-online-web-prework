@@ -25,6 +25,7 @@ end #=> nil
 end
 
 def find_greater_pair(src)
+  find_greater_pair = [[1,2],[100,200],[1000,2000]]
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
