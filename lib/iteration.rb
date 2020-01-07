@@ -48,8 +48,15 @@ end
 end
 
 def total_even_pairs(src)
-  total_eveb_pairs(src) = [4,4],[6,6],[8,8]
-  
+  total_even_pairs= [4,4],[6,6],[8,8]
+  total = 0
+row_index = 0
+while row_index < total_even_pairs.count do
+  element_index = 0
+  while element_index < total_even_pairs[row_index].count do
+    total += total_even_pairs[row_index][element_index]
+    element_index += 1
+  end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
