@@ -56,6 +56,12 @@ while row_index < total_even_pairs.count do
   while element_index < total_even_pairs[row_index].count do
     total += total_even_pairs[row_index][element_index]
     element_index += 1
+    end
+  row_index += 1
+else -= 1
+
+end
+
   end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
