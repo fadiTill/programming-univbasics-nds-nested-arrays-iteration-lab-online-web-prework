@@ -25,13 +25,23 @@ end #=> nil
 end
 
 def find_greater_pair(src)
-  find_greater_pair = [[1,2],[100,200],[1000,2000]]
+  find_greater_pair = [[2,4],[2,200],[2,2000]]
   outer_results = []
 row_index = 0
-while row_index < spice_rack.count do
+while row_index < find_greater_pair.count do
   element_index = 0
   inner_results = []
-  while element_index < spice_rack[row_index].count do
+  while element_index < find_greater_pair[row_index].count do
+    if find_greater_pair[row_index][element_index][0] >= 2
+      inner_results << spice_rack[row_index][element_index]
+    end
+    element_index += 1
+  end
+  outer_results << inner_results
+  row_index += 1
+end
+ 
+outer_results 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
